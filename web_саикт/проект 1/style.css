@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color: antiquewhite; */
+    border-bottom: 1px solid slategray;
+}
+
+/* левая часть */
+.left {
+    display: flex;
+    gap: 5%;
+    font-size: 14pt;
+    padding: 4% 5%;
+}
+
+.left p{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* правая часть */
+.right img{
+    width: 20px;
+}
+
+.right{
+    justify-self: end;
+    padding: 4% 5%;
+    display: flex;
+    gap: 20px;
+    /* background-color: aquamarine; */
+}
+
+/* секция один */
+
+.se1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: 1000px; */
+}
+
+.se1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.se1One {
+    padding: 0 5%;
+
+    align-self: center;
+}
+
+.se1One h1{
+    font-size: 60pt;
+    margin-bottom: 40px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.se1One .se1_p1{
+    text-align: justify;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+.se1One .se1_p2{
+    text-align: justify;
+    font-size: 16pt;
+    margin-bottom: 40px;
+}
+
+.se1One button{
+    border: 1px solid slategray;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: slategray;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+/* вторая секция */
+
+.se2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-top: 1px solid rgb(212, 213, 214);
+}
+
+.se2 img { 
+    width: 100%;
+    /* height: 100%; */
+}
+
+.se2 .se2Two{
+    padding: 0 5%;
+    align-self: center;
+}
+
+.se2Two h3{
+    font-size: 30pt;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.se2Two p{
+    font-size: 14pt;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.se2Two button{
+    border: 1px solid slategray;
+    text-transform: uppercase;
+    font-size: 14pt;
+    color: slategray;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+
+
+
+
